@@ -86,7 +86,7 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            Hi from lottery entrance!
+            Hi From Lottery Entrance!
             {raffleAddress ? (
                 <div>
                     <button
@@ -107,11 +107,11 @@ export default function LotteryEntrance() {
                         )}
                     </button>
                     <div>Entrance Fee: {ethers.utils.formatUnits(entranceFee, "ether")} ETH</div>
-                    <div>Number of Players: {numPlayers}</div>
-                    <div>Recent Winner: {recentWinner}</div>
+                    <div>The current number of players is: {numPlayers}</div>
+                    <div>The most previous winner was: {recentWinner}</div>
                 </div>
             ) : (
-                <div>No raffle address found</div>
+                <div>Please connect to Rinkeby Test Network</div>
             )}
         </div>
     )
