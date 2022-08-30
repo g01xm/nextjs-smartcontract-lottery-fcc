@@ -1702,6 +1702,18 @@
     "@web3auth/ui" "^1.1.4"
     "@web3auth/wallet-connect-v1-adapter" "^1.1.4"
 
+"@web3uikit/config@*":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@web3uikit/config/-/config-0.1.2.tgz#0f61701c094ce40269c59e61cb19d8326dba76ec"
+  integrity sha512-fOY0jxen7nEfivZc7BKm63WRcNEncidFhk+dIVR/0bj4tt5Xl0xyomPgyQqe38d3/PJ3RvqVTdupWFbWNJULkA==
+
+"@web3uikit/icons@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@web3uikit/icons/-/icons-0.1.5.tgz#6a1c1699b00640188b49a85346f3d8b2a4a43353"
+  integrity sha512-1FcaZaw3SljvWNA5V2PKMfGbfhiVG6rT/u1TV7PHqMTaYlAbbTeeq5rHNrWx3MkCWBITgU6jYl2w62wGSn0WCg==
+  dependencies:
+    "@web3uikit/config" "*"
+
 JSONStream@^1.3.5:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
